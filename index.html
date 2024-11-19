@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybercrime Awareness</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <script src="script.js"></script>
+    <nav>
+        <div class="title">CyberCrime</div>
+        <ul>
+            <li><a href="index.html" class="transition-link">Home</a></li>
+            <li><a href="about.html" class="transition-link">About</a></li>
+            <li><a href="cybercrime.html" class="transition-link">Cybercrime</a></li>
+        </ul>
+    </nav>
+    <div class="video-container">
+        <video class="front-video" autoplay loop muted>
+            <source src="front.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <section class="content slide-in">
+        <div class="box">
+            <h1>Understanding Cybercrime</h1>
+            <p>Cybercrime refers to any criminal activity that involves a computer, network, or device.</p>
+        </div>
+    </section>    
+    <div class="box">
+        <h2>Types of Cybercrimes</h2>
+        <ul>
+            <li>Phishing</li>
+            <li>Identity Theft</li>
+            <li>Ransomware Attacks</li>
+            <li>Online Fraud</li>
+            <li>Cyberbullying</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h1>Cybercrime Statistics</h1>
+        <canvas id="cybercrimeChart" width="400" height="200"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
